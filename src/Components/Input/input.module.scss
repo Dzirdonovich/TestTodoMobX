@@ -1,0 +1,25 @@
+.root {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  @media (max-width: 680px) {
+    width: 50%;
+  }
+  input {
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 10px;
+    margin-right: 2px;
+  }
+  button {
+    cursor: pointer;
+    margin-left: 2px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    padding: 10px;
+    background: blue;
+  }
+}
